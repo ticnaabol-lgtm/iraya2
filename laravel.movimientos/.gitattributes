@@ -1,0 +1,23 @@
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+* text eol=lf
+*.pdf -text
+
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare binary files to avoid automatic CRLF/LF conversion
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.png binary
+
